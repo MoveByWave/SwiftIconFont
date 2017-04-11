@@ -16,6 +16,7 @@ public enum Fonts: String {
     case Themify = "themify"
     case MapIcon = "map-icons"
     case MaterialIcon = "MaterialIcons-Regular"
+    case MingShi = "iconfont"
     
     var fontName: String {
         switch self {
@@ -33,6 +34,8 @@ public enum Fonts: String {
             return "map-icons"
         case .MaterialIcon:
             return "Material Icons"
+        case .MingShi:
+            return "iconfont";
         }
     }
     
@@ -74,6 +77,7 @@ public extension UIImage
     }
 }
 
+
 public extension String {
     
     public static func getIcon(from font: Fonts, code: String) -> String? {
@@ -92,7 +96,16 @@ public extension String {
             return fontOcticon(code)
         case .Themify:
             return fontThemifyIcon(code)
+        case .MingShi:
+            return fontMingShi(code)
         }
+    }
+    
+    public static func fontMingShi(_ code: String) -> String? {
+        if let icon = mingshiIconArr[code]{
+            return icon;
+        }
+        return nil
     }
     
     public static func fontAwesomeIcon(_ code: String) -> String? {
@@ -199,6 +212,9 @@ func getAttributedString(_ text: NSString, ofSize size: CGFloat) -> NSMutableAtt
         } else if fontPrefix == "ma" {
             fontType = Fonts.MaterialIcon
             fontArr = materialIconArr
+        } else if fontPrefix == "ms" {
+            fontType = Fonts.MingShi
+            fontArr = mingshiIconArr
         }
         
         if let _ = fontArr[fontCode] {
@@ -267,6 +283,8 @@ func GetFontTypeWithSelectedIcon(_ icon: String) -> Fonts {
             fontType = Fonts.MapIcon
         } else if fontPrefix == "ma" {
             fontType = Fonts.MaterialIcon
+        } else if fontPrefix == "ms"{
+            fontType = Fonts.MingShi
         }
     }
     
