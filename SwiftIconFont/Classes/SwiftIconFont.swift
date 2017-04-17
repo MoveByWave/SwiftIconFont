@@ -100,6 +100,15 @@ public extension String {
             return fontMingShi(code)
         }
     }
+	
+    public static func getMingShiCode(_ icon: String) -> String?{
+        for (k,v) in mingshiUnicodeArr{
+            if(v == icon){
+                return k;
+            }
+        }
+        return nil;
+    }
     
     public static func fontMingShi(_ code: String) -> String? {
         if let icon = mingshiIconArr[code]{
