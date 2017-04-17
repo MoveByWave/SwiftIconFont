@@ -73,3 +73,69 @@ public let mingshiIconArr: [String: String] =  [
     "menu_me":"\u{e65f}", //我的
     "menu_me_o":"\u{e660}"
 ]
+
+public let mingshiUnicodeArr: [String: String] =  [
+    "video_o":"&#xe61d;",
+    "my_classes_o":"&#xe61e;",
+    "classes":"&#xe622;",
+    "classes_o":"&#xe61f;",
+    "history":"&#xe620;",
+    "home_o":"&#xe621;",
+    "home":"&#xe623;",
+    "me":"&#xe624;",
+    "me_o":"&#xe625;",
+    "message":"&#xe626;",
+    "message_o":"&#xe627;",
+    "menu":"&#xe628;",
+    "login_photo":"&#xe629;",
+    "user_default":"&#xe62a;",
+    "chat_o":"&#xe62b;",
+    "arrow_left":"&#xe62c;",
+    "arrow_left_o":"&#xe62e;",
+    "arrow_right":"&#xe62d;",
+    "arrow_right_o":"&#xe62f;",
+    "close_o":"&#xe630;",
+    "replay_o":"&#xe631;",
+    "time_o":"&#xe632;",
+    "alert_o":"&#xe633;",
+    "live_o":"&#xe634;",
+    "course_crsf":"&#xe635;", //成人书法
+    "course_xzgl":"&#xe636;", //行政管理专业
+    "course_gsgl":"&#xe637;", //工商管理专业
+    "course_lt":"&#xe638;",  //黏土
+    "course_qy":"&#xe639;", //漆艺
+    "course_my":"&#xe63a;", //木艺
+    "course_xxjs":"&#xe63b;", //小学教师资格证
+    "course_xxsf":"&#xe63c;", //小学书法
+    "course_yejs":"&#xe63d;", //幼儿教师资格证
+    "course_xqjy":"&#xe63e;", //学前教育专业
+    "course_zxjs":"&#xe63f;", //中学教师资格证
+    "course_kjzy":"&#xe659;", //会计专业
+    "good":"&#xe640;", //给个好评
+    "specialty_teachers":"&#xe641;", //特长师资
+    "weixin":"&#xe642;", //微信号
+    "offline":"&#xe643;", //离线缓存
+    "video_history":"&#xe644;", //视频历史
+    "keep_topic":"&#xe645;", //收藏帖子
+    "settings":"&#xe646;", //设置
+    "my_classes_2":"&#xe647;", //我的班级
+    "order":"&#xe648;", //我的订单
+    "invited":"&#xe649;", //邀请朋友
+    "feedback":"&#xe64a;", //意见反馈
+    "question":"&#xe64b;", //我的提问
+    "important_new":"&#xe64c;", //重要消息
+    "news":"&#xe64d;", //我的消息
+    "answer":"&#xe64e;", //我的回复
+    "register":"&#xe64f;", //报班
+    "bbs":"&#xe650;", //答疑社区
+    "test":"&#xe651;", //试题
+    "ok":"&#xe658;",
+    "menu_index":"&#xe65c;", //首页
+    "menu_index_o":"&#xe65d;",
+    "menu_classes":"&#xe65e;", //班级
+    "menu_clesses_o":"&#xe65a;",
+    "menu_chat":"&#xe661;", //咨询
+    "menu_chat_o":"&#xe65b;",
+    "menu_me":"&#xe65f;", //我的
+    "menu_me_o":"&#xe660;"
+]
